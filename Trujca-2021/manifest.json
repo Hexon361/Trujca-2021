@@ -1,0 +1,11 @@
+{
+    "lang": "PL",
+    "dir": "ltr",
+    "name": "Trujca",
+    "start_url": "/",
+    "short_name": "Trujca",
+    "display": "standalone",
+    "background_color": "#80e03f",
+    "theme_color": "#80e03f",
+    "orientation": "portrait-primary"
+}

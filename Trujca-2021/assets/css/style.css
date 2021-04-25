@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li,
+label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, section {
+	display: block;}
+
+    body {
+        line-height: 1;
+    }
+    
+    html {
+        box-sizing: border-box;
+    }
+    
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+    
+    body {
+        background: #161E25;
+    }
+    
+    /* Scroll */
+    ::-webkit-scrollbar {
+        width: 4px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 0px #80e03f;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: #80e03f;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+        background: #80e03f;
+    }
+    
+    
+    
+    /*Navbar*/
+    
+    li, a, button {
+        font-family: 'Ubuntu';
+        font-weight: normal;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 10%;
+        color: white;
+    }
+    
+    i {
+        padding-right: 25px;
+        width: 19.25px;
+        color: #D71F72;
+    }
+
+    .logo {
+        cursor: pointer;
+    }
+    
+    .nav_links {
+        list-style: none;
+    }
+    
+    .nav_links li {
+        display: inline-block;
+        padding: 0px 20px;
+    }
+    
+    .nav_links li a {
+        transition: all 0.3s ease 0s;
+    }
+    
+    .nav_links li a:hover {
+        color: #80e03f;
+    }
+    
+    button {
+        padding: 8px 25px;
+        background-color: #161E25;
+        border: none;
+        border-radius: 50px;
+        border: 1px solid #D71F72;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        font-size: 20px;
+    }
+    
+    button:hover {
+        background-color: #161E25;
+    }
+    
+    
+    /* Header */
+    
+    #header {
+        background-color: #161E25;
+        color: #ffffff;
+        padding: 4.5em 0 2.5em 0;
+        -moz-align-items: center;
+        -webkit-align-items: center;
+        -ms-align-items: center;
+        align-items: center;
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        -moz-justify-content: center;
+        -webkit-justify-content: center;
+        -ms-justify-content: center;
+        justify-content: center;
+        background-image: url("images/main.png");
+        background-position: top left, center center;
+        background-attachment: fixed, fixed;
+        background-size: auto, cover;
+        height: 100vh;
+        min-height: 35em;
+    }
+    
+    #header table th {
+        color: #ffffff;
+    }
+    
+    #header input,
+    #header select,
+    #header textarea {
+        color: #ffffff;
+    }
+    
+    #header a {
+        color: inherit;
+        color: #ffffff;
+    }
+    
+    #header strong,
+    #header b {
+        color: #ffffff;
+    }
+    
+    #header h1,
+    #header h2,
+    #header h3,
+    #header h4,
+    #header h5,
+    #header h6 {
+        color: #ffffff;
+    }
+    
+    #header h1 {
+        font-family: 'Ubuntu';
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    #header p {
+        font-family: 'Ubuntu';
+        text-align: center;
+        font-size: 86px;
+    }
+    
+    #header img {
+        padding-top: 50px;
+    }
+    
+    #header .content {
+        -moz-transition: opacity 0.5s ease, -moz-transform 1s ease;
+        -webkit-transition: opacity 0.5s ease, -webkit-transform 1s ease;
+        -ms-transition: opacity 0.5s ease, -ms-transform 1s ease;
+        transition: opacity 0.5s ease, transform 1s ease;
+        -moz-transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+        text-align: center;
+        margin: 15.5em 4em 0 0;
+    }
+    
+    #header .content> :last-child {
+        margin-bottom: 0;
+    }
+    
+    #header .content .actions {
+        -moz-justify-content: -moz-flex-end;
+        -webkit-justify-content: -webkit-flex-end;
+        -ms-justify-content: -ms-flex-end;
+        justify-content: flex-end;
+    }
+    
+    #header .image {
+        -moz-transition: opacity 1s ease, -moz-transform 1s ease;
+        -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+        -ms-transition: opacity 1s ease, -ms-transform 1s ease;
+        transition: opacity 1s ease, transform 1s ease;
+        -moz-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+    #header .image img {
+        -moz-transition: opacity 0.75s ease;
+        -webkit-transition: opacity 0.75s ease;
+        -ms-transition: opacity 0.75s ease;
+        transition: opacity 0.75s ease;
+        -moz-transition-delay: 0.75s;
+        -webkit-transition-delay: 0.75s;
+        -ms-transition-delay: 0.75s;
+        transition-delay: 0.75s;
+        opacity: 1;
+    }
+    
+    @media screen and (max-width: 1280px) {
+    
+        #header {
+            background-image: url("images/pattern-size2.svg");
+        }
+    
+    }
+    
+    @media screen and (max-width: 980px) {
+    
+        #header {
+            height: auto;
+            min-height: 0;
+        }
+    
+        #header .content {
+            margin: -2em 4em 0 0;
+        }
+    
+        #header .content .actions {
+            -moz-justify-content: center;
+            -webkit-justify-content: center;
+            -ms-justify-content: center;
+            justify-content: center;
+        }
+    
+    }
+    
+    @media screen and (max-width: 980px) and (orientation: portrait) {
+    
+        #header {
+            padding: 6em 3em 4em 3em;
+            -moz-flex-direction: column-reverse;
+            -webkit-flex-direction: column-reverse;
+            -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+        }
+    
+        #header .content {
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin: 0 0 0 0;
+        }
+    
+        #header .image {
+            overflow: hidden;
+        }
+    
+    }
+    
+    @media screen and (max-width: 736px) {
+    
+        #header {
+            background-image: url("images/pattern-size3.svg");
+        }
+    
+        #header h1 {
+            font-size: 20px;
+        }
+    
+        #header p {
+            font-size: 86px;
+        }
+    
+    }
+    
+    @media screen and (max-width: 736px) and (orientation: landscape) {
+    
+        #header {
+            padding: 2em 2em 0.1em 2em;
+        }
+    
+        #header .content {
+            margin: 0 2em 2em 0;
+        }
+    
+        #header .image {
+            font-size: 0.8em;
+            width: 15em;
+            max-width: 20vw;
+        }
+    
+        #header .image .inner,
+        #header .image:before,
+        #header .image:after {
+            font-size: 0.8em;
+        }
+    
+    }
+    
+    @media screen and (max-width: 736px) and (orientation: portrait) {
+    
+        #header {
+            padding: 3em 1.5em 1em 1.5em;
+        }
+    
+        #header .image {
+            font-size: 0.6em;
+            max-width: 60vw;
+        }
+    
+    }
+    
+    @media screen and (max-width: 480px) and (orientation: landscape) {
+    
+        #header {
+            padding: 2em 1.5em 0.1em 1.5em;
+        }
+    
+        #header .image {
+            font-size: 0.7em;
+        }
+    
+        #header .actions {
+            font-size: 0.8em;
+        }
+    
+    }
+    
+    @media screen and (max-width: 480px) and (orientation: portrait) {
+    
+        #header {
+            padding: 2em 1em 0.1em 1em;
+        }
+    
+    }
+    
+    body.is-mobile #header {
+        background-attachment: scroll, scroll;
+    }
+    
+    body.is-preload #header .content {
+        -moz-transform: translateX(2em);
+        -webkit-transform: translateX(2em);
+        -ms-transform: translateX(2em);
+        transform: translateX(2em);
+        opacity: 0;
+    }
+    
+    body.is-preload #header .image {
+        -moz-transform: translateY(4em);
+        -webkit-transform: translateY(4em);
+        -ms-transform: translateY(4em);
+        transform: translateY(4em);
+        opacity: 0;
+    }
+    
+    body.is-preload #header .image img {
+        opacity: 0;
+    }
+    
+    @media screen and (max-width: 980px) and (orientation: portrait) {
+    
+        body.is-preload #header .content {
+            -moz-transform: none;
+            -webkit-transform: none;
+            -ms-transform: none;
+            transform: none;
+            opacity: 1;
+        }
+    
+        body.is-preload #header .image {
+            -moz-transform: translateY(2em);
+            -webkit-transform: translateY(2em);
+            -ms-transform: translateY(2em);
+            transform: translateY(2em);
+        }
+    
+    }
+
+.opis {
+    padding-left: 100px;
+    padding-top: 100px;
+    text-align: left;
+    font-family: 'Ubuntu';
+    color: white;
+    font-size: 20px;
+}
+
+.opis h1 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.opis p {
+    font-size: 20px;
+}
+
+#image {
+    float: right;
+}
+
+
+ /* footer {
+     background-color: #161E25;
+     text-align: center;
+     color: white;
+     font-size: 15px;
+ }
+
+ footer a {
+     font-size: 15px;
+ }
+
+ footer a:hover {
+     color: #80e03f;
+ }
+*/

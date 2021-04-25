@@ -1,0 +1,76 @@
+<head>
+    <html lang="pl-PL">
+    <title>Trujca.pl</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- OG -->
+    <meta name="theme-color" content="#80e03f" />
+    <meta name="Description" content="Najlepszy i największy serwer DM w Polsce!">
+    <meta property="og:title" content="Trujca.pl" />
+    <meta property="og:description" content="Najlepszy i największy serwer DM w Polsce!" />
+    <meta property="og:image" content="http://www.trujca.pl/images/main/logo.webp">
+    <!--Style-->
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="images/favicon.ico" sizes="196x196" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <body class="is-preload">
+
+               <!--navbar-->
+        <header>
+            <img class="logo" src="images/logo.png" alt="logo" width="auto" height="auto">
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="#">O nas</a></li>
+                    <li><a href="#">Klawiszologia</a></li>
+                    <li><a href="#">Regulamin</a></li>
+                    <li><a href="#">Team</a></li>
+                </ul>
+            </nav>
+            <a href="#"><button><i class="fab fa-discord"></i> Dołącz do nas</button></a>
+        </header>
+
+
+        <!--Góra-->
+        <header id="header">
+            <div class="content">
+                <h1>AKTUALNIE ONLINE:</h1>
+                <p><span><?php echo count(json_decode(file_get_contents("http://54.38.192.109:28336/players.json"))); ?></span>/<span>512</span></p>
+                <img src="images/myszka.png" alt="myszka" width="24" height="auto">
+            </div>
+        </header>
+
+        <div class="opis">
+            <h1>TrujcaRDM</h1>
+            <br>
+            <p>Trujca to największy serwer tego typu w Polsce. Nasza społeczność liczy aktualnie ponad 30 tys. osób, a liczba ta ciągle rośnie.</p>
+            <p>Tylko u nas spotkasz administrację, która zawsze chętnie pomoże oraz developerów, którzy tworzą z pasji.</p>
+            <img id="image" src="images/opis.png" alt="" width="670" height="500">
+        </div>
+
+<!--
+            <footer id="footer">
+            <p class="copyright">&copy; <a href="https://Trujca.pl" rel="noopener">Trujca</a> | <a href="https://github.com/Hexon361" target="_blank" rel="noopener">Hexon361</a></p>
+        </footer>
+-->
+
+        <!-- JS -->
+        <script src="assets/js/index.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/smooth-scroll.js"></script>
+    </body>
+
+    </html>
