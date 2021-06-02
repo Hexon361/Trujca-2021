@@ -65,9 +65,13 @@
         "src": "/images/avatar/misiaczek.webp",
         "size": "300x300",
         "type":"image/webp"
-        }, {
-          "src": "/images/avatar/paula.webp",
-          "size": "300x300",
-          "type":"image/webp"
+      }, {
+        "src": "/images/avatar/paula.webp",
+        "size": "300x300",
+        "type":"image/webp"
+      }, {
+        "src": "/images/avatar/jerzy.webp",
+        "size": "300x300",
+        "type":"image/webp"
       }]
 }

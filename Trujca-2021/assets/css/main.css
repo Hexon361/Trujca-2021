@@ -3266,7 +3266,7 @@ i {
     position: relative;
     text-align: center;
     color: white;
-  }
+}
 
 .img-box h4 {
     font-weight: bold;
@@ -3284,25 +3284,40 @@ i {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
 
 .centered-top {
     position: absolute;
     top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
 
 .centered-mid {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
 
-  .centered-bottom {
+.centered-bottom {
     position: absolute;
     top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
+
+.button-shop {
+    padding: 8px 25px;
+    background-color: #D71F72;
+    border: none;
+    border-radius: 50px;
+    border: 1px solid #D71F72;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+}
+
+.button-shop i {
+    color: white;
+}

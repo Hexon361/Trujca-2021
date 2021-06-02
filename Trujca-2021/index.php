@@ -44,7 +44,7 @@
         <header id="header">
             <div class="content">
                 <h1>AKTUALNIE ONLINE:</h1>
-                <p><span><?php echo count(json_decode(file_get_contents("http://54.38.192.109:28336/players.json"))); ?></span>/<span>512</span></p>
+                <p><span><?php echo count(json_decode(file_get_contents("http://51.83.191.199:28336/players.json"))); ?></span>/<span>512</span></p>
                 <img src="images/main/myszka.png" alt="" width="24" height="auto">
             </div>
         </header>
@@ -67,10 +67,10 @@
         <br>
         <div id="sklep">
             <div class="img-box">
-            <img class="image" src="images/main/donate.webp" width="auto" height="auto">
-            <h4 class="centered-top">Tebex</h4>
-            <p class="centered-mid">Jeżeli chcesz wesprzeć rozwój serwera, a zarazem zyskać profity dla siebie np. customowa ranga, bilety lub auto na wyłączność - zapraszamy na tebexa</p>
-            <a href="https://store.trujca.pl/" class="centered-bottom" target="_blank" rel="noopener"><button class="button"><i class="fas fa-shopping-cart"></i> Tebex</button></a>
+                <img class="image" src="images/main/donate.webp" width="auto" height="auto">
+                <h4 class="centered-top">Tebex</h4>
+                <p class="centered-mid">Jeżeli chcesz wesprzeć rozwój serwera, a zarazem zyskać profity dla siebie np. customowa ranga, bilety lub auto na wyłączność - zapraszamy na tebexa</p>
+                <a href="https://store.trujca.pl/" class="centered-bottom" target="_blank" rel="noopener"><button class="button-shop"><i class="fas fa-shopping-cart"></i> Tebex</button></a>
             </div>
         </div>
         <br>
@@ -165,25 +165,25 @@
                         </div>
                     </div>
                 </div>
-            <!-- JERZY -->
-            <div class="column">
-                <div class="card">
-                    <img src="images/avatar/jerzy.webp" id="info-image" alt="">
-                    <div class="container">
-                        <h3>Kyoji</h3>
-                        <p class="title">Design developer</p>
+                <!-- JERZY -->
+                <div class="column">
+                    <div class="card">
+                        <img src="images/avatar/jerzy.webp" id="info-image" alt="">
+                        <div class="container">
+                            <h3>Kyoji</h3>
+                            <p class="title">Design developer</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <br>
+        <br>
         <!--KLAWISZOLOGIA-->
         <div id="klawiszologia">
             <div class="img-box">
-            <img class="image" src="images/main/klawiszologia.webp" width="auto" height="auto">
-            <h4 class="centered">Klawiszologia</h4>
-        </div>
+                <img class="image" src="images/main/klawiszologia.webp" width="auto" height="auto">
+                <h4 class="centered">Klawiszologia</h4>
+            </div>
             <ol class="boardrules-rules">
                 <span style="text-align:left;display:flexbox;padding: 5em;">
                     <p><b>F1</b> Pojazdy</p>
@@ -216,9 +216,9 @@
         <br>
         <div id="regulamin">
             <div class="img-box">
-            <img src="images/main/klawiszologia.webp" width="auto" height="auto">
-            <h4 class="centered">Regulamin</h4>
-        </div>
+                <img src="images/main/klawiszologia.webp" width="auto" height="auto">
+                <h4 class="centered">Regulamin</h4>
+            </div>
             <ol class="boardrules-rules">
                 <span style="text-align:left;display:flexbox;padding: 5em;">
                     <p><b>1.</b> Jeżeli chcesz dołączyć się do ludzi, którzy się strzelają - zapytaj o pozwolenie, a nie pakuj się na chama.</p>
