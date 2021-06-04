@@ -13,9 +13,7 @@
     <meta property="og:description" content="Największy i najlepszy serwer DM w Polsce!" />
     <meta property="og:image" content="http://www.trujca.pl/images/main/logo.gif">
     <!-- stylesheet -->
-    <noscript>
-        <link rel="stylesheet" href="assets/css/noscript.css" />
-    </noscript>
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="images/favicon.ico" sizes="196x196" />
@@ -29,15 +27,15 @@
         <!--navbar-->
         <header>
             <img class="logo" src="images/main/logo.png" alt="logo" width="auto" height="auto">
-            <nav>
+            <div class="navbar">
                 <ul class="nav_links">
                     <li><a href="#opis">O nas</a></li>
-                    <li><a href="#sklep">Sklep</a></li>
+                    <li><a href="https://store.trujca.pl/" target="_blank" rel="noopener">Sklep</a></li>
                     <li><a href="#team">Team</a></li>
                     <li><a href="#klawiszologia">Klawiszologia</a></li>
                     <li><a href="#regulamin">Regulamin</a></li>
                 </ul>
-            </nav>
+            </div>
             <a href="https://discord.com/invite/trujcardm" target="_blank" rel="noopener"><button class="button"><i class="fab fa-discord"></i> Dołącz do nas</button></a>
         </header>
         <!--Góra-->
@@ -56,22 +54,13 @@
                         <img class="image" src="images/main/opis.png" width="auto" height="auto" alt="opis" />
                         <div class="content">
                             <h2>TrujcaRDM</h2>
-                            <p>Trujca to największy serwer tego typu w Polsce. Nasza społeczność liczy aktualnie ponad 30 tys. osób, a liczba ta ciągle rośnie.</p>
+                            <p>Trujca to największy serwer tego typu w Polsce. Nasza społeczność liczy aktualnie ponad 35 tys. osób, a liczba ta ciągle rośnie.</p>
                             <p>Tylko u nas spotkasz administrację, która zawsze chętnie pomoże oraz developerów, którzy tworzą z pasji.</p>
                             <a href="https://discord.com/invite/trujcardm" target="_blank" rel="noopener"><button class="button"><i class="fab fa-discord"></i> Zapraszamy na nasz Discord</button></a>
                         </div>
                     </section>
                 </div>
             </section>
-        </div>
-        <br>
-        <div id="sklep">
-            <div class="img-box">
-                <img class="image" src="images/main/donate.webp" width="auto" height="auto">
-                <h4 class="centered-top">Tebex</h4>
-                <p class="centered-mid">Jeżeli chcesz wesprzeć rozwój serwera, a zarazem zyskać profity dla siebie np. customowa ranga, bilety lub auto na wyłączność - zapraszamy na tebexa</p>
-                <a href="https://store.trujca.pl/" class="centered-bottom" target="_blank" rel="noopener"><button class="button-shop"><i class="fas fa-shopping-cart"></i> Tebex</button></a>
-            </div>
         </div>
         <br>
         <div id="team">
@@ -181,7 +170,7 @@
         <!--KLAWISZOLOGIA-->
         <div id="klawiszologia">
             <div class="img-box">
-                <img class="image" src="images/main/klawiszologia.webp" width="auto" height="auto">
+                <img class="image" src="images/main/klawiszologia.webp" width="100%" height="auto">
                 <h4 class="centered">Klawiszologia</h4>
             </div>
             <ol class="boardrules-rules">
@@ -216,7 +205,7 @@
         <br>
         <div id="regulamin">
             <div class="img-box">
-                <img src="images/main/klawiszologia.webp" width="auto" height="auto">
+                <img src="images/main/regulamin.webp" width="100%" height="auto">
                 <h4 class="centered">Regulamin</h4>
             </div>
             <ol class="boardrules-rules">

@@ -1,77 +1,69 @@
 {
-    "lang": "PL",
-    "dir": "ltr",
-    "name": "Trujca.pl",
-    "start_url": "/",
-    "short_name": "Trujca.pl",
-    "display": "standalone",
-    "background_color": "#80e03f",
-    "theme_color": "#80e03f",
-    "orientation": "portrait-primary",
-      "icons": [{
-        "src": "/images/main/logo.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      }, {
-        "src": "/images/main/logo.webp",
-        "sizes": "300x300",
-        "type": "image/webp",
-        "purpose": "maskable"
-      }, {
-        "src": "/images/main/donate.webp",
-        "sizes": "300x300",
-        "type": "image/webp"
-      }, {
-        "src": "/images/main/klawiszologia.webp",
-        "sizes": "300x300",
-        "type": "image/webp"
-      }, {
-        "src": "/images/main/opis.webp",
-        "sizes": "300x300",
-        "type": "image/webp"
-      }, {
-        "src": "/images/main/partner.webp",
-        "sizes": "300x300",
-        "type": "image/webp"
-      }, {
-        "src": "/images/main/regulamin.webp",
-        "size": "300x300",
-        "type":"image/webp"
-      }, {
-        "src": "/images/avatar/alku.webp",
-        "size": "300x300",
-        "type":"image/webp"
-      }, {
-        "src": "/images/avatar/bitsu.webp",
-        "size": "300x300",
-        "type":"image/webp"
-      }, {
-        "src": "/images/avatar/dejsu.webp",
-        "size": "300x300",
-        "type":"image/webp"
-      }, {
-        "src": "/images/avatar/hexon.webp",
-        "size": "300x300",
-        "type":"image/webp"
-      }, {
-        "src": "/images/avatar/lukname.webp",
-        "size": "300x300",
-        "type":"image/webp"
-      }, {
-        "src": "/images/avatar/rusek.webp",
-        "size": "300x300",
-        "type":"image/webp"
-      }, {
-        "src": "/images/avatar/misiaczek.webp",
-        "size": "300x300",
-        "type":"image/webp"
-      }, {
-        "src": "/images/avatar/paula.webp",
-        "size": "300x300",
-        "type":"image/webp"
-      }, {
-        "src": "/images/avatar/jerzy.webp",
-        "size": "300x300",
-        "type":"image/webp"
-      }]
+  "lang": "PL",
+  "dir": "ltr",
+  "name": "Trujca.pl",
+  "start_url": "/",
+  "short_name": "Trujca.pl",
+  "display": "standalone",
+  "background_color": "#80e03f",
+  "theme_color": "#80e03f",
+  "orientation": "portrait-primary",
+  "icons": [{
+      "src": "/images/main/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+  }, {
+      "src": "/images/main/logo.webp",
+      "sizes": "300x300",
+      "type": "image/webp",
+      "purpose": "maskable"
+  }, {
+      "src": "/images/main/klawiszologia.webp",
+      "sizes": "300x300",
+      "type": "image/webp"
+  }, {
+      "src": "/images/main/opis.png",
+      "sizes": "300x300",
+      "type": "image/webp"
+  }, {
+      "src": "/images/main/regulamin.webp",
+      "size": "300x300",
+      "type": "image/webp"
+  }, {
+      "src": "/images/avatar/alku.webp",
+      "size": "300x300",
+      "type": "image/webp"
+  }, {
+      "src": "/images/avatar/bitsu.webp",
+      "size": "300x300",
+      "type": "image/webp"
+  }, {
+      "src": "/images/avatar/dejsu.webp",
+      "size": "300x300",
+      "type": "image/webp"
+  }, {
+      "src": "/images/avatar/hexon.webp",
+      "size": "300x300",
+      "type": "image/webp"
+  }, {
+      "src": "/images/avatar/jerzy.webp",
+      "size": "300x300",
+      "type": "image/webp"
+  }, {
+      "src": "/images/avatar/lukname.webp",
+      "size": "300x300",
+      "type": "image/webp"
+  }, {
+      "src": "/images/avatar/misiaczek.webp",
+      "size": "300x300",
+      "type": "image/webp"
+  }, {
+      "src": "/images/avatar/paula.webp",
+      "size": "300x300",
+      "type": "image/webp"
+  }, {
+      "src": "/images/avatar/rusek.webp",
+      "size": "300x300",
+      "type": "image/webp"
+  }]
 }
