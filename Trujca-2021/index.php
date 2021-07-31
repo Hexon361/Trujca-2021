@@ -11,7 +11,7 @@
     <meta name="Description" content="Największy i najlepszy serwer DM w Polsce!">
     <meta property="og:title" content="Trujca.pl" />
     <meta property="og:description" content="Największy i najlepszy serwer DM w Polsce!" />
-    <meta property="og:image" content="http://www.trujca.pl/images/main/logo.gif">
+    <meta property="og:image" content="http://www.trujca.pl/images/main/logo.webp">
     <!-- stylesheet -->
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     <link rel="manifest" href="manifest.json">
@@ -30,19 +30,18 @@
             <div class="navbar">
                 <ul class="nav_links">
                     <li><a href="#opis">O nas</a></li>
-                    <li><a href="https://store.trujca.pl/" target="_blank" rel="noopener">Sklep</a></li>
                     <li><a href="#team">Team</a></li>
                     <li><a href="#klawiszologia">Klawiszologia</a></li>
                     <li><a href="#regulamin">Regulamin</a></li>
                 </ul>
             </div>
-            <a href="https://discord.com/invite/trujcardm" target="_blank" rel="noopener"><button class="button"><i class="fab fa-discord"></i> Dołącz do nas</button></a>
+            <a href="https://discord.com/invite/trujca" target="_blank" rel="noopener"><button class="button"><i class="fab fa-discord"></i> Dołącz do nas</button></a>
         </header>
         <!--Góra-->
         <header id="header">
             <div class="content">
                 <h1>AKTUALNIE ONLINE:</h1>
-                <p><span><?php echo count(json_decode(file_get_contents("http://51.83.191.199:28336/players.json"))); ?></span>/<span>512</span></p>
+                <p><span><?php echo count(json_decode(file_get_contents("http://193.41.226.58:30120/players.json"))); ?></span>/<span>512</span></p>
                 <img src="images/main/myszka.png" alt="" width="24" height="auto">
             </div>
         </header>
@@ -56,7 +55,7 @@
                             <h2>TrujcaRDM</h2>
                             <p>Trujca to największy serwer tego typu w Polsce. Nasza społeczność liczy aktualnie ponad 35 tys. osób, a liczba ta ciągle rośnie.</p>
                             <p>Tylko u nas spotkasz administrację, która zawsze chętnie pomoże oraz developerów, którzy tworzą z pasji.</p>
-                            <a href="https://discord.com/invite/trujcardm" target="_blank" rel="noopener"><button class="button"><i class="fab fa-discord"></i> Zapraszamy na nasz Discord</button></a>
+                            <a href="https://discord.com/invite/trujca" target="_blank" rel="noopener"><button class="button"><i class="fab fa-discord"></i> Zapraszamy na nasz Discord</button></a>
                         </div>
                     </section>
                 </div>
@@ -123,10 +122,10 @@
                 <!-- Lukname -->
                 <div class="column">
                     <div class="card">
-                        <img src="images/avatar/paula.webp" id="info-image" alt="">
+                        <img src="images/avatar/lukname.webp" id="info-image" alt="">
                         <div class="container">
-                            <h3>Paula</h3>
-                            <p class="title">Zarząd</p>
+                            <h3>lukname</h3>
+                            <p class="title">Car Developer</p>
                         </div>
                     </div>
                 </div>
@@ -141,26 +140,6 @@
                         <div class="container">
                             <h3>Misiaczek</h3>
                             <p class="title">Server Developer</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Lukname -->
-                <div class="column">
-                    <div class="card">
-                        <img src="images/avatar/lukname.webp" id="info-image" alt="">
-                        <div class="container">
-                            <h3>lukname</h3>
-                            <p class="title">Car Developer</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- JERZY -->
-                <div class="column">
-                    <div class="card">
-                        <img src="images/avatar/jerzy.webp" id="info-image" alt="">
-                        <div class="container">
-                            <h3>Kyoji</h3>
-                            <p class="title">Design developer</p>
                         </div>
                     </div>
                 </div>

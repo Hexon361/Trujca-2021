@@ -166,7 +166,7 @@ em, i {
 }
 
 p {
-    padding: 0.3em;
+    padding: 0.4em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -2233,7 +2233,7 @@ header.major:after {
 
 /* Header */
 #header {
-    background-color: #161E25;
+    background-color:antiquewhite;
     color: #ffffff;
     padding: 4.5em 0 2.5em 0;
     -moz-align-items: center;
@@ -2625,6 +2625,12 @@ i {
     cursor: pointer;
     transition: all 0.3s ease 0s;
     font-size: 20px;
+}
+
+@media screen and (max-width: 650px) {
+    .button {
+        display: none;
+    }
 }
 
 .button:hover {
